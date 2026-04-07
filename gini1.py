@@ -40,5 +40,5 @@ def process_excel_gini(input_file, column_name, output_file='wyniki_gini.xlsx'):
     plt.grid(axis='y', linestyle='--', alpha=0.7)
     plt.show()
 
-# --- PRZYKŁAD UŻYCIA ---
+# TEST
 process_excel_gini('dochody.xlsx', 'Dochod_Zroznicowany')
